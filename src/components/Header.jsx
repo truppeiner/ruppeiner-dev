@@ -12,8 +12,8 @@ function Header(){
             <Container className="header-right">
                 <Nav.Link href="#About" className="link">About</Nav.Link>
                 <Nav.Link href="#Projects" className="link">Projects</Nav.Link>
-                <Nav.Link href="#Contact" className="link">Contact</Nav.Link>
-                <Nav.Link href="Resume" className="link">Resume</Nav.Link>
+                <Nav.Link href="https://github.com/truppeiner" className="link">GitHub</Nav.Link>
+                <Nav.Link href="https://www.linkedin.com/in/thomas-ruppeiner-201880170/" className="link">Resume</Nav.Link>
             </Container>
         </Navbar>
     )
