@@ -10,8 +10,8 @@ function Header(){
             <Container className="header-center">
             </Container>
             <Container className="header-right">
-                <Nav.Link href="#About" className="link">About</Nav.Link>
-                <Nav.Link href="#Projects" className="link">Projects</Nav.Link>
+                <Nav.Link href="/about" className="link">About</Nav.Link>
+                <Nav.Link href="/projects" className="link">Projects</Nav.Link>
                 <Nav.Link href="https://github.com/truppeiner" className="link">GitHub</Nav.Link>
                 <Nav.Link href="https://www.linkedin.com/in/thomas-ruppeiner-201880170/" className="link">Resume</Nav.Link>
             </Container>
