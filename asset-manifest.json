@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ruppeiner-dev/static/css/main.2d0ade90.css",
+    "main.js": "/ruppeiner-dev/static/js/main.0b67321f.js",
+    "index.html": "/ruppeiner-dev/index.html",
+    "main.2d0ade90.css.map": "/ruppeiner-dev/static/css/main.2d0ade90.css.map",
+    "main.0b67321f.js.map": "/ruppeiner-dev/static/js/main.0b67321f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d0ade90.css",
+    "static/js/main.0b67321f.js"
+  ]
+}
