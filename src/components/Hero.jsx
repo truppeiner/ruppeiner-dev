@@ -10,7 +10,7 @@ function Hero(){
             <p>I'm Thomas Ruppeiner and I'm a full stack developer based out of Austin, Texas.</p>
        </Col>
        <Col className="hero-image">
-            <Image alt="hero" src="../assets/images/header/hero.png" className="img-fluid"></Image>
+            <Image alt="hero" src="../public/assets/images/header/hero.png" className="img-fluid"></Image>
        </Col>
     </Row>
     </Container>

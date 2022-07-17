@@ -10,6 +10,7 @@ function App(){
     return (
         <>
         <Router>
+            <div className="App">
             <Header></Header>
             <Routes>
                 <Route
@@ -25,6 +26,7 @@ function App(){
                     element = {<Projects/>}
                 />  
             </Routes>
+            </div>
         </Router>
         </>
     )
