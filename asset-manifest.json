@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ruppeiner-dev/static/css/main.2d0ade90.css",
-    "main.js": "/ruppeiner-dev/static/js/main.af6aed23.js",
+    "main.js": "/ruppeiner-dev/static/js/main.a7ec661a.js",
     "index.html": "/ruppeiner-dev/index.html",
     "main.2d0ade90.css.map": "/ruppeiner-dev/static/css/main.2d0ade90.css.map",
-    "main.af6aed23.js.map": "/ruppeiner-dev/static/js/main.af6aed23.js.map"
+    "main.a7ec661a.js.map": "/ruppeiner-dev/static/js/main.a7ec661a.js.map"
   },
   "entrypoints": [
     "static/css/main.2d0ade90.css",
-    "static/js/main.af6aed23.js"
+    "static/js/main.a7ec661a.js"
   ]
 }
