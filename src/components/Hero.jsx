@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Row, Col} from "react-bootstrap";
-import Image from "react-bootstrap/esm/Image";
+import { Container, Row, Col } from "react-bootstrap";
+
 
 function Hero(){
     return(
@@ -10,7 +10,7 @@ function Hero(){
             <p>I'm Thomas Ruppeiner and I'm a full stack developer based out of Austin, Texas.</p>
        </Col>
        <Col className="hero-image">
-            <Image alt="hero" src="../assets/images/header/hero.png" className="img-fluid"></Image>
+            <img alt="hero" src="../assets/images/header/hero.png" className="img-fluid"></img>
        </Col>
     </Row>
     </Container>

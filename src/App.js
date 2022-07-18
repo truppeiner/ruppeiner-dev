@@ -6,11 +6,11 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Foot from "./components/Footer";
-
+import './css/App.css'
 function App(){
     return (
         <>
-        <Router>
+        <Router className = "App">
             <div className="App">
             <Header></Header>
             <Routes>
@@ -28,7 +28,7 @@ function App(){
                 />  
             </Routes>
             </div>
-        <Foot></Foot>
+        <Foot className='footer'></Foot>
         </Router>
         </>
     )
