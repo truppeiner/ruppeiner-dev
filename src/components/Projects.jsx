@@ -4,7 +4,7 @@ import "../css/projects.css"
 
 function Projects(){
     return(
-        <Container class ="projects">
+        <Container className ="projects">
             <Col>
                 <Row>
                 <div>
@@ -15,21 +15,21 @@ function Projects(){
                         <Nav.Link href="https://who-do-austin.herokuapp.com/login">
                         <Card >
                             <Card.Body className="who-do">
-                                <h3 class="text-center mb-4">Who Do?</h3>
+                                <h3 className ="text-center mb-4">Who Do?</h3>
                                 <Row>
                                 <Col>
                                 <h4>Technologies:</h4>
                                         <ul>
-                                            <li class="m-2">
+                                            <li className ="m-2">
                                                 Bootstrap
                                             </li>
-                                            <li class="m-2">
+                                            <li className ="m-2">
                                                 Javacsript
                                             </li>
-                                            <li class="m-2">
+                                            <li className ="m-2">
                                                 HTML
                                             </li>
-                                            <li class="m-2">
+                                            <li className ="m-2">
                                                 Server Side API's
                                             </li>
                                         </ul>
@@ -49,30 +49,30 @@ function Projects(){
                         <Nav.Link href="https://github.com/sacylkowski/tavern-masters">
                         <Card>
                             <Card.Body>
-                                <h3 class="text-center mb-4">Tavern Masters</h3>
+                                <h3 className="text-center mb-4">Tavern Masters</h3>
                                 <Row>
                                     <Col>
                                         <h4>Technologies:</h4>
                                         <ul>
-                                            <li class="m-2">
+                                            <li className ="m-2">
                                                 MongoDB
                                             </li>
-                                            <li class="m-2">
+                                            <li className ="m-2">
                                                 Express.js
                                             </li>
-                                            <li class="m-2">
+                                            <li className ="m-2">
                                                 React
                                             </li>
-                                            <li class="m-2">
+                                            <li className ="m-2">
                                                 GraphQL
                                             </li>
-                                            <li class="m-2">
+                                            <li className ="m-2">
                                                 Bootstrap
                                             </li>
-                                            <li class="m-2">
+                                            <li className ="m-2">
                                                 Javacsript
                                             </li>
-                                            <li class="m-2">
+                                            <li className ="m-2">
                                                 HTML
                                             </li>
                                         </ul>

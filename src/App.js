@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Foot from "./components/Footer";
 
 function App(){
     return (
@@ -27,6 +28,7 @@ function App(){
                 />  
             </Routes>
             </div>
+        <Foot></Foot>
         </Router>
         </>
     )
