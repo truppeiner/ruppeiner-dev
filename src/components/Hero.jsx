@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import heroImage01 from "../assets/images/header/hero.png"
 
 
 function Hero(){
@@ -10,7 +11,7 @@ function Hero(){
             <p>I'm Thomas Ruppeiner and I'm a full stack developer based out of Austin, Texas.</p>
        </Col>
        <Col className="hero-image">
-            <img alt="hero" src="../assets/images/header/hero.png" className="img-fluid"></img>
+            <img alt="hero" src={heroImage01} className="img-fluid"></img>
        </Col>
     </Row>
     </Container>

@@ -5,7 +5,7 @@ function Header({ pageChange }){
     return(
         <Navbar className="navbar">
             <Container>
-                <Navbar.Brand href="/" className="navbar-title">Ruppeiner Development</Navbar.Brand>
+                <Navbar.Brand href="#hero" className="navbar-title" onClick={ () => pageChange('Hero')}>Ruppeiner Development</Navbar.Brand>
             </Container>
             <Container className="header-center">
             </Container>
