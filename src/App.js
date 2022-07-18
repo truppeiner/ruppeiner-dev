@@ -15,7 +15,7 @@ function App(){
             <Header></Header>
             <Routes>
                 <Route
-                    path="/"
+                    path="/ruppeiner-dev"
                     element = {<Hero/>}
                 />
                 <Route 
