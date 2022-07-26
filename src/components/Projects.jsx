@@ -1,9 +1,14 @@
 import React from "react";
 import { Container, Row, Col, Card, Nav} from "react-bootstrap";
 import "../css/projects.css"
+import { motion } from 'framer-motion';
 
 function Projects(){
     return(
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{opacity: 1 }}
+        exit={{opacity: 0 }}>
         <Container className ="projects">
             <Col>
                 <Row>
@@ -107,6 +112,7 @@ function Projects(){
                 </Row>
             </Col>
         </Container>
+        </motion.div> 
     )
 }
 

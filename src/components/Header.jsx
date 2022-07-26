@@ -13,7 +13,7 @@ function Header({ pageChange }){
                 <Nav.Link href="#about" className="link" onClick={ () => pageChange('About')}>About</Nav.Link>
                 <Nav.Link href="#projects" className="link" onClick={ () => pageChange('Projects')}>Projects</Nav.Link>
                 <Nav.Link href="https://github.com/truppeiner" className="link">GitHub</Nav.Link>
-                <Nav.Link href="https://www.linkedin.com/in/thomas-ruppeiner-201880170/" className="link">Resume</Nav.Link>
+                <Nav.Link href="#resume" className="link" onClick={ () => pageChange('Resume')}>Resume</Nav.Link>
             </Container>
         </Navbar>
     )

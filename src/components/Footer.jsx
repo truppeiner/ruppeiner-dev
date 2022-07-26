@@ -3,7 +3,7 @@ import { ModalFooter } from "react-bootstrap";
 
 function Foot(){
     return(
-       <ModalFooter style={{position: 'fixed', left: 0, bottom : 0, right: 0}}>
+       <ModalFooter style={{position: 'fixed', left: 0, bottom : 0, right: 0}} className = "footer">
             Made By Thomas Ruppeiner
        </ModalFooter>
     )

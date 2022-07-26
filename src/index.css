@@ -42,3 +42,16 @@ body {
 .project-header {
     border-bottom: 3px solid black;
 }
+
+html, body {
+    height: 100%;
+    background-image: linear-gradient(to bottom right, white, gainsboro);
+}
+
+.link {
+    color: black;
+}
+
+/* .footer {
+    background-image: linear-gradient(to bottom right, white, coral);
+} */
