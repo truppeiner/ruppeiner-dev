@@ -1,7 +1,25 @@
-/* .who-do {
-    background-image: url("https://user-images.githubusercontent.com/98487770/169680520-698e0a4a-9637-460a-ba1f-cca28002346d.png");
-    background-size: 110%;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-} */
+.who-do {
+    color: black;
+}
+
+.who-do:hover {
+    color: blue;
+    transition-duration: .5s;
+}
+
+.tavern-masters {
+    color: black;
+}
+
+.tavern-masters:hover {
+    color: blue;
+    transition-duration: .5s;
+}
+
+.who-card {
+    min-height: 600px;
+}
+
+.tavern-card {
+    min-height: 600px;
+}

@@ -16,13 +16,18 @@ function Projects(){
                     <h1 className="project-header-span text-center m-3">Projects</h1>
                 </div>    
                     <Col>
-                    <Container>
+                    <Container >
                         <Nav.Link href="https://who-do-austin.herokuapp.com/login">
-                        <Card >
+                        <Card className="who-card">
                             <Card.Body className="who-do">
-                                <h3 className ="text-center mb-4">Who Do?</h3>
+                            <Row>
+                                    <Col>
+                                        <img alt ="who-do-img" className="img-fluid mb-2" src="https://user-images.githubusercontent.com/98487770/169680520-698e0a4a-9637-460a-ba1f-cca28002346d.png"/>
+                                    </Col>
+                                </Row>
+                                <h3 className ="text-center mb-4 who-do-title">Who Do?</h3>
                                 <Row>
-                                <Col>
+                                <Col className="who-do-list">
                                 <h4>Technologies:</h4>
                                         <ul>
                                             <li className ="m-2">
@@ -50,10 +55,15 @@ function Projects(){
                     </Container>
                     </Col>
                     <Col>
-                    <Container>
+                    <Container className='tavern-cont'>
                         <Nav.Link href="https://github.com/sacylkowski/tavern-masters">
-                        <Card>
-                            <Card.Body>
+                        <Card className="tavern-card">
+                            <Card.Body className="tavern-masters">
+                            <Row>
+                                    <Col>
+                                        <img alt ="tavern-img" className="img-fluid mb-2" src="https://raw.githubusercontent.com/sacylkowski/tavern-masters/main/client/src/img/app-running.png"/>
+                                    </Col>
+                                </Row>
                                 <h3 className="text-center mb-4">Tavern Masters</h3>
                                 <Row>
                                     <Col>
