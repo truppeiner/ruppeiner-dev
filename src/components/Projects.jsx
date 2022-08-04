@@ -94,7 +94,7 @@ function Projects(){
                                     </Col>
                                     <Col>
                                         <h4>Description:</h4>
-                                        <p>A platform for users to create custom roleplaying campaigns, encounters that comprise these campaigns, and share these with other users.</p>
+                                        <p> MERN Stack application. A platform for users to create custom roleplaying campaigns, encounters that comprise these campaigns, and share these with other users.</p>
                                     </Col>
                                 </Row>
                             </Card.Body>
