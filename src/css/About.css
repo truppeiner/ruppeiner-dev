@@ -1,0 +1,48 @@
+:root {
+    --color-bg: #1f1f38;
+    --color-bg-alt: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-var: rgba(77,181,255,0.4);
+    --color-white: #fff;
+    --color-light: rgba(255,255,255,0,6);
+}
+
+.experience-card {
+    background-color: var(--color-bg-alt);
+    border-radius: .5rem;
+    padding: 20px;
+}
+
+.github-card {
+    background-color: var(--color-bg-alt);
+    margin: 5px;
+    border-radius: .5rem;
+    padding: 20px;
+}
+
+.about-card {
+    background-color: var(--color-bg-alt);
+    margin: 5px;
+    border-radius: .5rem;
+    padding: 20px;
+}
+
+.award-icon, .github-icon {
+    color: var(--color-primary);
+}
+
+.icon-container {
+    justify-content: center;
+    margin-bottom: 5% !important;
+}
+.headers-container {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.header-1 {
+    justify-content: center;
+}
+
+.header-2 {
+    justify-content: center;
+}
