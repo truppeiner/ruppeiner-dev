@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from 'framer-motion';
-import {Row, Col, Container} from "react-bootstrap"
+import {Row, Col, Container } from "react-bootstrap"
 import { BsGithub, BsAward } from "react-icons/bs"
 import "../css/About.css"
 
