@@ -21,7 +21,7 @@
 }
 
 .about-card {
-    background-color: var(--color-bg-alt);
+    /* background-color: var(--color-bg-alt); */
     margin: 5px;
     border-radius: .5rem;
     padding: 20px;
@@ -56,3 +56,4 @@
     background-color: var(--color-primary-var);
     border-color: var(--color-primary-var);
 }
+
