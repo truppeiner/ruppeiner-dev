@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, Nav} from "react-bootstrap";
-import "../css/projects.css"
+import "../css/Projects.css"
 import { motion } from 'framer-motion';
 
 function Projects(){
