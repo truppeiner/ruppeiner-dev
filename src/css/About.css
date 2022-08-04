@@ -46,3 +46,13 @@
 .header-2 {
     justify-content: center;
 }
+
+.btn-primary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-primary-var);
+    border-color: var(--color-primary-var);
+}

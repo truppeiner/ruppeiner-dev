@@ -60,7 +60,7 @@ function About() {
                                 I am a structure oriented full stack web developer with a knack for delivering modern, user-friendly designs. With a background in History and construction, I utilize critical thinking with hard work and attention to detail, in order to provide the best product, as well as communicate with a team.
                             </p>
                         <div>
-                            <a href ="#contact" className="btn btn-primary">Let's Talk</a>
+                            <a href ="#contact" className="btn btn-primary contact-button">Let's Talk</a>
                         </div>
                         </Col>
                     </Row>
