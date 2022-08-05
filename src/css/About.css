@@ -8,18 +8,26 @@
 }
 
 .experience-card {
-    background-color: var(--color-bg-alt);
+    background-color: rgba(44, 44, 108, .80);
     border-radius: .5rem;
     padding: 20px;
 }
 
+.experience-card:hover {
+    background-color: rgba(44, 44, 108, .5);
+    transition: .5s;
+}
 .github-card {
-    background-color: var(--color-bg-alt);
+    background-color: rgba(44, 44, 108, .80);
     margin: 5px;
     border-radius: .5rem;
     padding: 20px;
 }
 
+.github-card:hover {
+    background-color: rgba(44, 44, 108, .5);
+    transition: .5s;
+}
 .about-card {
     /* background-color: var(--color-bg-alt); */
     margin: 5px;
@@ -29,6 +37,7 @@
 
 .award-icon, .github-icon {
     color: var(--color-primary);
+    
 }
 
 .icon-container {
@@ -50,10 +59,12 @@
 .btn-primary {
     background-color: var(--color-primary);
     border-color: var(--color-primary);
+    color: var(--color-bg-alt);
 }
 
 .btn-primary:hover {
     background-color: var(--color-primary-var);
     border-color: var(--color-primary-var);
+    color: var(--color-white);
 }
 

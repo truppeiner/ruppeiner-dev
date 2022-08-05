@@ -28,7 +28,7 @@ function About() {
                         <Col className="experience-card m-2">
                             <div>
                                 <div className="d-flex icon-container m-2">
-                                    <BsAward className="award-icon"/>
+                                    <BsAward className="award-icon" size={32}/>
                                 </div>
                                 <div>
                                     <h5 className="experience-title">Experience:</h5>
@@ -42,14 +42,14 @@ function About() {
                         <Col className="github-card m-2">
                             <div>
                                 <div className="d-flex icon-container m-2">
-                                    <BsGithub className="github-icon"/>
+                                    <BsGithub className="github-icon" size={32}/>
                                 </div>
                                 <div>
                                     <h5 className="github-title">GitHub:</h5>
                                 </div>
                             </div>
                             <div className="github-body">
-                                40+ repositories and coloborations with other developers!
+                                40+ repositories and colaborations with other developers!
                             </div>
                         </Col>
                     </Row>
