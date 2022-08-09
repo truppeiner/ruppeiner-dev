@@ -22,7 +22,7 @@ function Projects(){
                             <Card.Body className="who-do">
                             <Row>
                                     <Col>
-                                        <img alt ="who-do-img" className="img-fluid mb-2" src="https://user-images.githubusercontent.com/98487770/169680520-698e0a4a-9637-460a-ba1f-cca28002346d.png"/>
+                                        <img alt ="who-do-img" className="img-fluid mb-2 who-do-img" src="https://user-images.githubusercontent.com/98487770/169680520-698e0a4a-9637-460a-ba1f-cca28002346d.png"/>
                                     </Col>
                                 </Row>
                                 <h3 className ="text-center mb-4 who-do-title">Who Do?</h3>
@@ -61,7 +61,7 @@ function Projects(){
                             <Card.Body className="tavern-masters">
                             <Row>
                                     <Col>
-                                        <img alt ="tavern-img" className="img-fluid mb-2" src="https://raw.githubusercontent.com/sacylkowski/tavern-masters/main/client/src/img/app-running.png"/>
+                                        <img alt ="tavern-img" className="img-fluid mb-2 tavern-img" src="https://raw.githubusercontent.com/sacylkowski/tavern-masters/main/client/src/img/app-running.png"/>
                                     </Col>
                                 </Row>
                                 <h3 className="text-center mb-4">Tavern Masters</h3>
@@ -103,7 +103,7 @@ function Projects(){
                     </Container>
                     </Col>
                 </Row>
-                <Row>
+                {/* <Row>
                     <Container>
                         <Card>
                             
@@ -119,7 +119,7 @@ function Projects(){
                             
                         </Card>
                     </Container>
-                </Row>
+                </Row> */}
             </Col>
         </Container>
         </motion.div> 

@@ -1,25 +1,43 @@
+:root {
+    --color-bg: #1f1f38;
+    --color-bg-alt: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-var: rgba(77,181,255,0.4);
+    --color-white: #fff;
+    --color-light: rgba(255,255,255,0,6);
+    --transition: all 400ms ease;
+}
 .who-do {
-    color: black;
+    color: white;
+    background-color: var(--color-bg-alt);
+    
 }
 
 .who-do:hover {
-    color: blue;
+    color: var(--color-primary);
     transition-duration: .5s;
 }
 
 .tavern-masters {
-    color: black;
+    color: white;
+    background-color: var(--color-bg-alt);
 }
 
 .tavern-masters:hover {
-    color: blue;
+    color: var(--color-primary);
     transition-duration: .5s;
 }
 
 .who-card {
     min-height: 600px;
+    border-color: var(--color-bg-alt);
 }
 
 .tavern-card {
     min-height: 600px;
+    border-color: var(--color-bg-alt);
+}
+
+.tavern-img, .who-do-img {
+    border-radius: .5rem;
 }
