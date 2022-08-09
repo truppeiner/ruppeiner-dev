@@ -53,6 +53,10 @@ body {
     border-bottom: 3px solid var(--color-white);
 }
 
+.footer {
+    background-color: rgba(17,17,42,0.80);
+    border-color: rgba(77,181,255,0.4);
+}
 html, body {
     height: 100%;
     background-color: #1f1f38;

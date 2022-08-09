@@ -5,6 +5,7 @@
     --color-primary-var: rgba(77,181,255,0.4);
     --color-white: #fff;
     --color-light: rgba(255,255,255,0,6);
+    --transition: all 400ms ease;
 }
 
 .experience-card {
@@ -68,3 +69,26 @@
     color: var(--color-white);
 }
 
+.prof-pic-cont {
+    width:75%;
+    aspect-ratio: 1/1;
+    place-items: center;
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--color-primary),
+        transparent
+    );
+}
+
+.prof-pic-img {
+    overflow: hidden;
+    border-radius: 2rem;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.prof-pic-img:hover {
+    transform: rotate(0);
+}

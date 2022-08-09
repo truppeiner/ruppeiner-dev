@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from 'framer-motion';
 import {Row, Col, Container } from "react-bootstrap"
 import { BsGithub, BsAward } from "react-icons/bs"
+import profilePic from "../assets/images/about/profilepic.jpg"
 import "../css/About.css"
 
 function About() {
@@ -21,7 +22,13 @@ function About() {
             </div>
             <Row>
                 <Col>
-                <p>test</p>
+                    <Container>
+                        <div  className="prof-pic-cont">
+                            <div className="prof-pic-img"> 
+                                <img src ={profilePic} alt="thomas" className="img-fluid"/>
+                            </div>
+                        </div>
+                    </Container> 
                 </Col>
                 <Col>
                     <Row>
@@ -58,9 +65,10 @@ function About() {
                         <h5>About Me:</h5>
                             <p>
                                 I am a structure oriented full stack web developer with a knack for delivering modern, user-friendly designs. With a background in History and construction, I utilize critical thinking with hard work and attention to detail, in order to provide the best product, as well as communicate with a team.
+                                I primarily work with JavaScript, but I am in the process of learning Python!
                             </p>
                         <div>
-                            <a href ="#contact" className="btn btn-primary contact-button">Let's Talk</a>
+                            {/* <a href ="#contact" className="btn btn-primary contact-button">Let's Talk</a> */}
                         </div>
                         </Col>
                     </Row>
