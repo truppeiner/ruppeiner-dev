@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "../css/Resume.css";
-import resumeImg from "../assets/images/resume/resume-display.png";
+import resumeImg from "../assets/images/resume/resume-display.PNG";
 import { motion } from 'framer-motion';
 
 function Resume () {

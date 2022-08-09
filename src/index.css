@@ -57,6 +57,10 @@ body {
     background-color: rgba(17,17,42,0.80);
     border-color: rgba(77,181,255,0.4);
 }
+.linked-in-icon {
+    margin-right: 10px;
+}
+
 html, body {
     height: 100%;
     background-color: #1f1f38;
