@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "../css/Resume.css";
-import resumeImg from "../assets/images/resume/resume-display.PNG";
+import resumeImg from "../assets/images/resume/resume-display.png";
 import { motion } from 'framer-motion';
 
 function Resume () {
@@ -15,7 +15,7 @@ function Resume () {
                 <Col>
                     <div className="resume-display">
                             <h1>Resume:</h1>
-                            <a href='https://www.docdroid.net/Ci6pjG5/thomass-resume-pdf' className = 'resume-link'>
+                            <a href='https://docdro.id/x08VhEP' className = 'resume-link'>
                                 <img src={resumeImg} className = 'resume-image img-fluid p-3' alt="resume"/>
                             </a>
                     </div>
