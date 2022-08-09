@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ruppeiner-dev/static/css/main.891ab242.css",
-    "main.js": "/ruppeiner-dev/static/js/main.9b988947.js",
+    "main.css": "/ruppeiner-dev/static/css/main.25bdd39f.css",
+    "main.js": "/ruppeiner-dev/static/js/main.61d887f1.js",
     "static/media/profilepic.jpg": "/ruppeiner-dev/static/media/profilepic.82d43e764479fa4c41e6.jpg",
-    "static/media/resume-display.png": "/ruppeiner-dev/static/media/resume-display.bba66507f179a3ee030f.png",
+    "static/media/resume-display.PNG": "/ruppeiner-dev/static/media/resume-display.bba66507f179a3ee030f.PNG",
     "static/media/hero.png": "/ruppeiner-dev/static/media/hero.94c5999bce8c6629a83f.png",
     "index.html": "/ruppeiner-dev/index.html",
-    "main.891ab242.css.map": "/ruppeiner-dev/static/css/main.891ab242.css.map",
-    "main.9b988947.js.map": "/ruppeiner-dev/static/js/main.9b988947.js.map"
+    "main.25bdd39f.css.map": "/ruppeiner-dev/static/css/main.25bdd39f.css.map",
+    "main.61d887f1.js.map": "/ruppeiner-dev/static/js/main.61d887f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.891ab242.css",
-    "static/js/main.9b988947.js"
+    "static/css/main.25bdd39f.css",
+    "static/js/main.61d887f1.js"
   ]
 }
